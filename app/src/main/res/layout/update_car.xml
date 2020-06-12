@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/UpdateCar"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        android:layout_marginLeft="130dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/NamecartoUpdateCar"
+
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:paddingLeft="150dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/modelcartoUpdateCar"
+        android:layout_marginTop="130dp"
+        android:textSize="20dp"
+        android:paddingLeft="150dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/madeINcarToUpdateCar"
+        android:layout_marginTop="200dp"
+        android:textSize="20dp"
+        android:paddingLeft="150dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/priceCarToUpdateCar"
+        android:layout_marginTop="270dp"
+        android:textSize="20dp"
+        android:paddingLeft="150dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/kindCarToUpdateCar"
+        android:layout_marginTop="340dp"
+        android:textSize="20dp"
+        android:paddingLeft="150dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/UpdateCarBButton"
+        android:text="@string/UpdateCar"
+        android:background="@color/colorlogin"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="400dp"
+        android:textSize="20dp"
+        />
+
+
+
+</RelativeLayout>

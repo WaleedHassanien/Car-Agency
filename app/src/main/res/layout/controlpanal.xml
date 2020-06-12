@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/AddCar"
+        android:background="@color/colorlogin"
+        android:textColor="@color/textColor"
+        android:textSize="20dp"
+        android:id="@+id/AddCar"
+        android:layout_marginTop="50dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/deleteCar"
+        android:background="@color/colorlogin"
+        android:textColor="@color/textColor"
+        android:textSize="20dp"
+        android:id="@+id/deleteCar"
+        android:layout_marginTop="130dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/UpdateCar"
+        android:background="@color/colorlogin"
+        android:textColor="@color/textColor"
+        android:textSize="20dp"
+        android:id="@+id/UpdateCar"
+        android:layout_marginTop="200dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/deletecustomer"
+        android:background="@color/colorlogin"
+        android:textColor="@color/textColor"
+        android:textSize="20dp"
+        android:id="@+id/deletecustomer"
+        android:layout_marginTop="270dp"
+        />
+
+
+
+</RelativeLayout>

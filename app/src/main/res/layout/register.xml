@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Register"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        android:layout_marginLeft="130dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditNameCustomer"
+        android:hint="@string/Name"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:paddingLeft="150dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditEmialCustomer"
+        android:hint="@string/Email"
+        android:layout_marginTop="130dp"
+        android:textSize="20dp"
+        android:paddingLeft="150dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditpasswordCustomer"
+        android:hint="@string/password"
+        android:layout_marginTop="200dp"
+        android:textSize="20dp"
+        android:paddingLeft="150dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditVisaCustomer"
+        android:hint="@string/Visa"
+        android:layout_marginTop="270dp"
+        android:textSize="20dp"
+        android:paddingLeft="150dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register"
+        android:text="@string/Register"
+        android:background="@color/colorlogin"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="350dp"
+        android:textSize="20dp"
+        />
+
+
+
+</RelativeLayout>

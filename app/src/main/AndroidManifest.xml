@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.waleed.projectcar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/a1"
+        android:label="Cars Store"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".loginadmin"></activity>
+        <activity android:name=".admincontrolpanel"></activity>
+        <activity android:name=".loginCustomer"></activity>
+        <activity android:name=".buycar"></activity>
+        <activity android:name=".register"></activity>
+        <activity android:name=".car_Details"></activity>
+        <activity android:name=".delete_Car"></activity>
+        <activity android:name=".listview_AllCustomer"></activity>
+        <activity android:name=".listView_DeleteCar"></activity>
+        <activity android:name=".updateCar"></activity>
+        <activity android:name=".listview_update"></activity>
+        <activity android:name=".addCar"></activity>
+        <activity android:name=".delete_customer"></activity>
+    </application>
+
+</manifest>

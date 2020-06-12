@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ProjectCar</string>
+    <string name="sing">signin</string>
+
+    <string name="Register">SignUp</string>
+    <string name="Email">E-Mail</string>
+    <string name="password">Password</string>
+    <string name="Name">Name </string>
+    <string name="madeIN">madeIN </string>
+    <string name="Model">Model</string>
+    <string name="kind">CarKind</string>
+    <string name="price">Price</string>
+    <string name="Visa">numberVisa</string>
+    <string name="login">SignIn</string>
+    <string name="deletecustomer">DeleteCustomer</string>
+    <string name="AddCar">AddCar</string>
+    <string name="deleteCar">deleteCar</string>
+    <string name="UpdateCar">UpdateCar</string>
+    <string name="buycar">Buy Car</string>
+    <string name="visaNumber">visaNumber</string>
+    <string name="pricecar">Price</string>
+    <string name="buttonbuy">Buy</string>
+    <string name="mercedes_benz_g_class_5_5_g55_amg_5dr_auto">Mercedes-Benz G Class 5.5 G55 AMG 5dr Auto</string>
+
+
+
+</resources>

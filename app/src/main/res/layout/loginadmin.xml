@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="30dp"
+        android:textColor="@color/color"
+        android:paddingLeft="130dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditEmail"
+        android:hint="@string/Email"
+        android:paddingLeft="100dp"
+        android:textSize="20dp"
+        android:layout_marginTop="80dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Editpassword"
+        android:hint="@string/password"
+        android:paddingLeft="100dp"
+        android:textSize="20dp"
+        android:layout_marginTop="140dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:background="@color/colorlogin"
+        android:textColor="@color/textColor"
+        android:textSize="20dp"
+        android:id="@+id/loginadmin"
+        android:layout_marginTop="200dp"
+        />
+
+</RelativeLayout>

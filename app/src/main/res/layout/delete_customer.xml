@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/deletecustomer"
+        android:textColor="@color/balck"
+        android:textSize="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="40dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/NameCustomertodeleteCustomer"
+        android:layout_marginTop="230dp"
+        android:textColor="@color/balck"
+
+        android:textSize="20dp"
+        android:paddingLeft="150dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonCustomertodeleteCustomer"
+        android:text="@string/deleteCar"
+        android:background="@color/colorlogin"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="300dp"
+        android:textSize="20dp"
+        />
+
+</RelativeLayout>
